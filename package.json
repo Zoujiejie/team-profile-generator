@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "## User Story ```md AS A manager I WANT to generate a webpage that displays my team's basic info SO THAT I have quick access to their emails and GitHub profiles ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoujiejie/team-profile-generator.git"
+  },
+  "author": "Jie Zou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoujiejie/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/Zoujiejie/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
