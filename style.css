@@ -1,0 +1,19 @@
+.jumbotron {
+    background-color: rgb(218, 36, 36);
+}
+
+.display-4 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.employee-card {
+    width: 400px;
+    box-shadow: 3px 3px 3px gray;
+    margin: 20px;
+}
+
+.card-body {
+    background-color: rgb(229, 224, 224);
+}

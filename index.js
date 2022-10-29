@@ -29,6 +29,7 @@ function chooseRole() {
                     break;
                 default:
                     console.log("You have just created your team!")
+                    createHTML();
             }
         })
 }

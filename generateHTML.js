@@ -1,8 +1,8 @@
 // const generateTeam = team => {
 
-    //Managers div
-    const generateManager = manager => {
-        return `
+//Managers div
+const generateManager = manager => {
+    return `
     <div class="card employee-card">
         <div class="card-header bg-primary text-white">
             <h2 class="card-title">${manager.getName()}</h2>
@@ -17,11 +17,11 @@
         </div>
     </div>
     `;
-    };
+};
 
-    //Engineers div
-    const generateEngineer = engineer => {
-        return `
+//Engineers div
+const generateEngineer = engineer => {
+    return `
     <div class="card employee-card">
         <div class="card-header bg-primary text-white">
             <h2 class="card-title">${engineer.getName()}</h2>
@@ -36,11 +36,11 @@
         </div>
     </div>
         `;
-    };
+};
 
-    //Intern div
-    const generateIntern = intern => {
-        return `
+//Intern div
+const generateIntern = intern => {
+    return `
     <div class="card employee-card">
         <div class="card-header bg-primary text-white">
             <h2 class="card-title">${intern.getName()}</h2>
@@ -55,11 +55,11 @@
         </div>
     </div>
         `;
-    };
+};
 
 // }
 
-function generateHTML (Team) {
+function generateHTML(Team) {
     return `
 <!DOCTYPE html>
 <html lang="en">
@@ -84,9 +84,7 @@ function generateHTML (Team) {
     <div class="container">
         <div class="row">
             <div class="row team-area col-12 d-flex justify-content-center">
-            ${Team}
-            for each
-            
+            ${Team}     
             </div>
         </div>
     </div>
@@ -96,4 +94,4 @@ function generateHTML (Team) {
     `;
 };
 
-module.exports = {generateManager, generateEngineer, generateIntern, generateHTML}
+module.exports = { generateManager, generateEngineer, generateIntern, generateHTML }
