@@ -1,4 +1,4 @@
-const generateTeam = team => {
+// const generateTeam = team => {
 
     //Managers div
     const generateManager = manager => {
@@ -56,9 +56,10 @@ const generateTeam = team => {
     </div>
         `;
     };
-}
 
-module.exports = team => {
+// }
+
+function generateHTML (Team) {
     return `
 <!DOCTYPE html>
 <html lang="en">
@@ -83,7 +84,9 @@ module.exports = team => {
     <div class="container">
         <div class="row">
             <div class="row team-area col-12 d-flex justify-content-center">
-            ${generateTeam(team)}
+            ${Team}
+            for each
+            
             </div>
         </div>
     </div>
@@ -92,3 +95,5 @@ module.exports = team => {
 </html>
     `;
 };
+
+module.exports = {generateManager, generateEngineer, generateIntern, generateHTML}
