@@ -1,5 +1,9 @@
 # Team-Profile-Generator
 
+## Description & Instructions
+When the user enters node index.js in the integerated terminal, the application starts running and gives the user a series of prompted questions. When the user input all of their answers, the application will automatically generate an index.html document with all the input answer data. Base on the prompt questions, this application is a team profile generator to help the user to create theri own team webpage with the team members info listed
+
+
 ## User Story
 ```md
 AS A manager
@@ -27,3 +31,12 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 ```
+
+## Websites
+- GitHub Repo: https://github.com/Zoujiejie/team-profile-generator
+- ScreenCastify Demo Video: https://app.castify.com/watch/300afaa4-6ae3-46d7-af0d-d828a22f2d24
+
+## Screenshot
+This is a screenshot of the generated HTML webpage.
+![HTML Webpage Screenshot](./assets/HTML-Page.jpeg)
+
