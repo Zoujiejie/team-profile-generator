@@ -34,7 +34,7 @@ THEN I exit the application, and the HTML is generated
 
 ## Websites
 - GitHub Repo: https://github.com/Zoujiejie/team-profile-generator
-- ScreenCastify Demo Video: https://app.castify.com/watch/300afaa4-6ae3-46d7-af0d-d828a22f2d24
+- Demo Video: https://drive.google.com/file/d/1p5GDa9DceSNQ7XLUIhhKwy54yDsz6ysw/view 
 
 ## Screenshot
 This is a screenshot of the generated HTML webpage.
